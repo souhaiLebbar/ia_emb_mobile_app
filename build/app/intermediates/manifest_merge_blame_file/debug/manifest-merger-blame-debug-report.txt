@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.souvikbiswas.flutter_camera_demo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:4:4-65
+14-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:4:21-63
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:camera_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\camera_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+15-->[:camera_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\camera_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[:camera_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\camera_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+16-->[:camera_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\camera_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\dcddb311c85ad4ba0fb094e649f15a67\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:24:5-79
+17-->[com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\dcddb311c85ad4ba0fb094e649f15a67\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:24:22-76
+18
+19    <application
+19-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:5:4-43:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\8e86e615f21ac3758e97e94e18045107\core-1.8.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="AppDrug" >
+23-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:6:9-32
+24        <activity
+24-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:8:9-37:20
+25            android:name="com.souvikbiswas.flutter_camera_demo.MainActivity"
+25-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:9:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:13:13-163
+27            android:exported="true"
+27-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:10:13-36
+28            android:hardwareAccelerated="true"
+28-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:14:13-47
+29            android:launchMode="singleTop"
+29-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:11:13-43
+30            android:theme="@style/LaunchTheme"
+30-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:12:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:15:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:20:13-23:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:21:15-70
+41                android:resource="@style/NormalTheme" />
+41-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:22:15-52
+42            <!--
+43                 Displays an Android View that continues showing the launch screen
+44                 Drawable until Flutter paints its first frame, then this splash
+45                 screen fades out. A splash screen is useful to avoid any visual
+46                 gap between the end of Android's launch screen and the painting of
+47                 Flutter's first frame.
+48            -->
+49            <!--
+50              <meta-data
+51              android:name="io.flutter.embedding.android.SplashScreenDrawable"
+52              android:resource="@drawable/launch_background"
+53              />
+54            -->
+55            <intent-filter>
+55-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:33:13-36:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:34:17-68
+56-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:34:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:35:17-76
+58-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:35:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:40:9-42:33
+66            android:name="flutterEmbedding"
+66-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:41:13-44
+67            android:value="2" />
+67-->C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\android\app\src\main\AndroidManifest.xml:42:13-30
+68
+69        <provider
+69-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+70            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+70-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+71            android:authorities="com.souvikbiswas.flutter_camera_demo.flutter.image_provider"
+71-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+72            android:exported="false"
+72-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+73            android:grantUriPermissions="true" >
+73-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+74            <meta-data
+74-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+76                android:resource="@xml/flutter_image_picker_file_paths" />
+76-->[:image_picker_android] C:\Users\lebba\Desktop\Module option\AI_Mobile\ia_emb_mobile_app\AppDrug\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+77        </provider>
+78
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+80            android:name="androidx.window.extensions"
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+82        <uses-library
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+83            android:name="androidx.window.sidecar"
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\lebba\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+85    </application>
+86
+87</manifest>

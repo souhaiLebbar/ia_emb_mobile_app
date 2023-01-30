@@ -1,0 +1,20 @@
+sq/flutter/tflite/BuildConfig.java
+ sq.flutter.tflite.BuildConfig
+sq/flutter/flutter_tflite/TflitePlugin.java
+ sq.flutter.flutter_tflite.TflitePlugin
+ sq.flutter.flutter_tflite.TflitePlugin$1
+ sq.flutter.flutter_tflite.TflitePlugin$2
+ sq.flutter.flutter_tflite.TflitePlugin$RunModelOnBinary
+ sq.flutter.flutter_tflite.TflitePlugin$RunModelOnFrame
+ sq.flutter.flutter_tflite.TflitePlugin$RunModelOnImage
+ sq.flutter.flutter_tflite.TflitePlugin$RunPix2PixOnBinary
+ sq.flutter.flutter_tflite.TflitePlugin$RunPix2PixOnFrame
+ sq.flutter.flutter_tflite.TflitePlugin$RunPix2PixOnImage
+ sq.flutter.flutter_tflite.TflitePlugin$RunPoseNet
+ sq.flutter.flutter_tflite.TflitePlugin$RunSSDMobileNet
+ sq.flutter.flutter_tflite.TflitePlugin$RunSegmentationOnBinary
+ sq.flutter.flutter_tflite.TflitePlugin$RunSegmentationOnFrame
+ sq.flutter.flutter_tflite.TflitePlugin$RunSegmentationOnImage
+ sq.flutter.flutter_tflite.TflitePlugin$RunYOLO
+ sq.flutter.flutter_tflite.TflitePlugin$RunYOLO$1
+ sq.flutter.flutter_tflite.TflitePlugin$TfliteTask
